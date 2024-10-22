@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Suriya Sharmin Mim - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>My Portfolio</h1>
+            <h1>Suriya Sharmin Mim</h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#extra">Extra Info</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -23,43 +23,33 @@
     <section id="about" class="section">
         <div class="container">
             <h2>About Me</h2>
-            <p>Hello! I'm [Your Name], a passionate web developer. I specialize in creating stunning and functional websites. Feel free to check out my projects below.</p>
+            <p>Hi, I'm Suriya Sharmin Mim, a 23-year-old passionate about web development and design. I enjoy creating beautiful, functional websites and exploring new technologies in the field.</p>
         </div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="extra" class="section">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of the project.</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of the project.</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of the project.</p>
-                    <a href="#" class="btn">View Project</a>
-                </div>
-            </div>
+            <h2>Extra Information</h2>
+            <p>I am always eager to learn new skills and take on new challenges. In addition to web development, I have a strong interest in graphic design and user experience.</p>
+            <ul>
+                <li>Age: 23</li>
+                <li>Location: [Your City]</li>
+                <li>Skills: HTML, CSS, JavaScript, and more</li>
+                <li>Interests: Web Development, Graphic Design, UI/UX</li>
+            </ul>
         </div>
     </section>
 
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Feel free to reach out to me via email at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2024 Suriya Sharmin Mim. All rights reserved.</p>
         </div>
     </footer>
 </body>
@@ -83,7 +73,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #4CAF50;
     color: #fff;
     padding: 20px 0;
 }
@@ -106,6 +96,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .section {
@@ -113,39 +104,21 @@ nav ul li a {
     text-align: center;
 }
 
-.project-grid {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
 }
 
-.project-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    width: 30%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.section p {
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
-.project-card h3 {
-    margin-bottom: 10px;
-}
-
-.project-card p {
-    margin-bottom: 15px;
-}
-
-.project-card .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.project-card .btn:hover {
-    background-color: #555;
+ul {
+    list-style: disc;
+    margin: 20px auto;
+    text-align: left;
+    max-width: 500px;
 }
 
 footer {
@@ -155,5 +128,3 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
-
-
